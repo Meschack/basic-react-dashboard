@@ -1,0 +1,33 @@
+.carousel-container .actions .dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+  cursor: pointer;
+}
+
+.carousel-container .actions .dot.active {
+  background-color: var(--primary);
+}
+
+.carousel-container {
+  padding: 2rem;
+  background-color: var(--grey);
+  border-radius: 10px;
+}
+
+.carousel-container .slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.carousel-container .actions {
+  display: flex;
+  gap: 0.5rem;
+  margin: auto;
+  width: max-content;
+  margin-top: 2rem;
+}

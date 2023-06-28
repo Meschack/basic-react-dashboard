@@ -1,0 +1,20 @@
+.recent-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.recent-posts li {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.recent-posts li img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.recent-posts li div em {
+  color: rgba(0, 0, 0, 0.658);
+}

@@ -1,0 +1,64 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.topbar i {
+  cursor: pointer;
+}
+
+.topbar .search-input {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  border: 2px solid #d3d3d3;
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+}
+
+.topbar .search-input .search-icon i {
+  font-size: 30px;
+  color: #d3d3d3;
+}
+
+.topbar .search-input input {
+  padding: 0.5rem;
+  border: none;
+  outline: 0;
+  width: 250px;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.topbar .icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.topbar .icons div {
+  position: relative;
+  background-color: var(--grey);
+  padding: 0.3rem;
+  min-width: 2rem;
+  border-radius: 5px;
+}
+
+.topbar .icons div i {
+  font-size: 30px;
+}
+
+.topbar .icons .fa-bell + .badge {
+  width: 10px !important;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

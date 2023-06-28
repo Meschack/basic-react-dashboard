@@ -1,0 +1,34 @@
+.reveal {
+  display: none !important;
+}
+
+@media all and (max-width: 880px) {
+  .reveal {
+    display: flex !important;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+  header.header.hides {
+    position: fixed;
+    left: -60vw;
+    top: 0;
+  }
+
+  header.header.active {
+    background-color: var(--darkGrey);
+    position: fixed;
+    z-index: 5;
+    left: 0;
+  }
+
+  .App main {
+    padding: 0 1rem;
+  }
+
+  .App main .dashboard main {
+    padding: 0;
+  }
+}

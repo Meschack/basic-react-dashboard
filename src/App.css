@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+  text-decoration: none;
+}
+
+.App {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.App main {
+  flex: 1;
+}
+
+.App main::-webkit-scrollbar,
+.App .sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+.App main,
+.App .sidebar {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.App .sidebar {
+  min-width: 330px;
+}

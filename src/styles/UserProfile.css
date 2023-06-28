@@ -1,0 +1,25 @@
+.user-profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0rem 0.5rem;
+}
+
+.user-profile i {
+  cursor: pointer;
+}
+
+.user-profile div {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-profile div span:last-child {
+  color: rgba(0, 0, 0, 0.678);
+}
+
+.user-profile img {
+  width: 3rem;
+  height: 100%;
+  border-radius: 50%;
+}

@@ -1,0 +1,31 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.calendar button.create {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  width: 100%;
+  border-radius: 05px;
+  padding: 0.5rem;
+  color: white;
+  border: 2px solid var(--primary);
+}
+
+.calendar .react-calendar {
+  background-color: white;
+  width: 100%;
+  border: none;
+}
+
+.calendar .react-calendar .react-calendar__month-view__days button {
+  border-radius: 5px;
+}

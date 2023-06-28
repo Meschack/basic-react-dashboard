@@ -1,0 +1,19 @@
+.users-online-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.users-online-list li img {
+  width: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  transition: transform 0.5s;
+}
+
+.users-online-list li img:hover {
+  transform: translateY(-3px);
+}
+
+.users-online-list li:not(.users-online-list li:first-child) img {
+  margin-left: -0.5rem;
+}

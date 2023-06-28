@@ -1,0 +1,41 @@
+.poll {
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.content {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.content li {
+  background-color: white;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.content .progress-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.content .progress-wrapper .progress-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(212, 212, 212);
+  width: 100%;
+}
+
+.content .progress-bar .progress {
+  height: 7px;
+  border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+.login-page {
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1.2em;
+}
+
+.login-page section {
+  width: 50%;
+  padding: 1rem 2rem;
+}
+
+.login-page .login-form {
+  margin-top: 2rem;
+}
+
+.login-page .illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-page .illustration img {
+  animation: up-and-down 5s 1s infinite;
+  transition: 0.5s;
+}
